@@ -1,0 +1,13 @@
+k2:
+  - changed-files:
+      - any-glob-to-any-file: "k2.md"
+
+k6:
+  - changed-files:
+      - any-glob-to-any-file: "k6.md"
+
+docs:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "*.md"
+          - "docs/**"
